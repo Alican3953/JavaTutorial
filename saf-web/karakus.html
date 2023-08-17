@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href=".\asset.css" media="screen" />
+<script src=".\jc.js"></script>
+</head>
+<body>
+<h2 style="color:white;"></h2>
+<form action="/action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="./img/avatar.jpg" style="width:200px; height:200px" alt="Avatar" class="avatar">
+  </div>
+  <div class="container">
+    <label style="color:white;"for="uname" ><b>Username</b></label>
+    <input type="text" placeholder="Username" name="uname" required>
+
+    <label style="color:white;"><b>Password</b></label>
+    <input type="password" placeholder="Password" name="psw" required>
+    <button type="submit" onClick="parent.location='file:///C:/GitRepo/alican/saf-web/welcome.html'">Login</button>
+	<button type="submit"  onClick="parent.location='file:///C:/GitRepo/alican/saf-web/singUp.html'">Sing up</button>
+    <label style="color:white;">
+      <input type="checkbox" checked="checked" name="remember"> Remember Me
+    </label>
+  </div>
+  <script>
+    "use strict";
+    var metin = "Merhaba JavaScript";
+
+    alert(metin.length);
+  </script>
+  <div style="background-color:black;"class="container" >
+    <button type="button" class="cancelbtn" ondblclick="myOperation2();">Cancel</button>
+    <span class="psw"  onClick="parent.location='file:///C:/GitRepo/alican/saf-web/forgotPassword.html'"> <a href="#">Forgot Password </a></span>
+  </div>
+</form>
+</body>
+</html>
